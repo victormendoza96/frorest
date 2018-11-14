@@ -1,28 +1,41 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-class App extends Component {
+import Title from './title.js';
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <section>
+
+        <div>
+          <div>
+            <Title></Title>
+            <button>registrate gratis</button>
+           
+            <div>
+              <ul>
+                <li>
+                  <h3>calificaciones con emociones</h3>
+                  <p>califica tus lugares con experiencias, no con numeros</p>
+                </li>
+                <li>
+                  <h3>¿Sin Internet? Sin Problemas</h3>
+                  <p>Findnes funciona sin internet y en conecciones lentas</p>
+                </li>
+                <li>
+                  <h3>Tus lugares favoritos</h3>
+                  <p>Define tu lista de sitios favoritos</p>
+                </li>
+              </ul>
+            
+            </div>
+          </div>
+          
+        </div>
+
+      </section>
     );
   }
 }
 
-export default App;
+
