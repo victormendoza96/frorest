@@ -1,0 +1,46 @@
+
+
+.center-body{
+ padding: 100px;
+ padding-top: 100px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+
+}
+
+.main-content{
+   margin-bottom: 2em;
+  margin-left: -200px; 
+}
+
+.main-img{
+   position: absolute;
+  z-index: -1;
+   top: 0px; 
+  height: 400px; 
+}
+.img-property{
+  height: 160px;
+  width: 220px;
+  background-size: 100% 70% !important
+  
+}
+.card-style{
+  display: inline-block;
+  width: 32%;
+  text-align: left;
+  margin-right: 1%;
+  box-sizing: border-box;
+}
+
+.card-text{
+  display: flex
+}
+.card-style2{
+  display: inline-block;
+  width: 32%;
+  text-align: left;
+  background-color: red;
+}
